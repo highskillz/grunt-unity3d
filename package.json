@@ -1,0 +1,45 @@
+{
+  "name": "grunt-unity3d",
+  "description": "Grunt plugin to assist in building Unity3D projects",
+  "version": "0.1.0",
+  "homepage": "https://github.com/highskillz/grunt-unity3d",
+  "author": {
+    "name": "Joao C Costa",
+    "url": "http://www.highskillz.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highskillz/grunt-unity3d"
+  },
+  "private" : true,
+  "preferGlobal" : false,
+  "bugs": {
+    "url": "https://github.com/highskillz/grunt-unity3d/issues"
+  },
+  "licenses": [
+    {
+      "type": "AGPL-3.0",
+      "url": "https://github.com/highskillz/grunt-unity3d/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.x",
+    "grunt-contrib-clean": "~0.4.x",
+    "grunt-contrib-nodeunit": "~0.2.x",
+    "grunt": "~0.4.x"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.x"
+  },
+  "keywords": [
+    "gruntplugin",
+    "unity3d",
+    "build"
+  ]
+}
